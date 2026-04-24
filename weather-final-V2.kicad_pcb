@@ -839,7 +839,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7K"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "45626c1f-1340-405a-ac1c-0ea3cfcf6160")
@@ -980,7 +980,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7K"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "e60ddc87-e559-4a21-8c1d-9a12aeda6390")
@@ -4274,7 +4274,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
-			(at -3.58 -0.01 0)
+			(at -3.48 -0.27 0)
 			(layer "F.SilkS")
 			(uuid "feb71272-94a0-4c2a-966c-ffbca54bdf03")
 			(effects
@@ -4414,7 +4414,7 @@
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "U1"
-			(at 0 -4.5 180)
+			(at 0.39 -4.69 180)
 			(layer "F.SilkS")
 			(uuid "f9ef0269-c678-4fbf-adb8-9be0eb41f157")
 			(effects

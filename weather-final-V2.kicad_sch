@@ -3216,7 +3216,7 @@
 		(at 97.79 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "edca33c2-9190-42f7-b311-c06a666b5fb0")
+		(uuid "b36c48bc-3a2a-4452-8281-a31ad22deb85")
 	)
 	(no_connect
 		(at 74.93 60.96)
@@ -3320,13 +3320,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 76.2) (xy 115.57 72.39)
+			(xy 115.57 72.39) (xy 109.22 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e088e41-c26a-461e-9250-76ece7951641")
+		(uuid "60ac1a5b-9a79-4cca-8a91-d7b21c6d203f")
 	)
 	(wire
 		(pts
@@ -3340,13 +3340,13 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 76.2) (xy 115.57 76.2)
+			(xy 109.22 72.39) (xy 109.22 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7cab4351-0f0e-4610-9836-ac0e6d86a53c")
+		(uuid "6571110d-a0a6-412f-844d-41d42719d7e5")
 	)
 	(wire
 		(pts
@@ -3447,6 +3447,16 @@
 			(type default)
 		)
 		(uuid "b7771848-adac-4c24-9393-c6b202367c85")
+	)
+	(wire
+		(pts
+			(xy 109.22 76.2) (xy 97.79 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25d0472-d1cb-4814-a5b0-3dbb1f6c4ae3")
 	)
 	(wire
 		(pts
@@ -6054,7 +6064,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7K"
 			(at 161.29 133.3499 0)
 			(effects
 				(font
@@ -8684,7 +8694,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7K"
 			(at 153.67 133.3499 0)
 			(effects
 				(font
