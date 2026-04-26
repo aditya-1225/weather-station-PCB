@@ -3240,6 +3240,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 76.2) (xy 231.14 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b7fa798-9988-4638-bf3a-06f0b8706d81")
+	)
+	(wire
+		(pts
 			(xy 59.69 132.08) (xy 59.69 129.54)
 		)
 		(stroke
@@ -3357,6 +3367,16 @@
 			(type default)
 		)
 		(uuid "7e50f0fb-12e5-4f69-8cfa-6a0157684c41")
+	)
+	(wire
+		(pts
+			(xy 233.68 71.12) (xy 233.68 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "815b400e-2e66-4571-8252-b9288826dd0f")
 	)
 	(wire
 		(pts
@@ -3567,6 +3587,28 @@
 		(uuid "105ab8d8-8f5a-4c2c-98a5-a33992ece1cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.75 120.2048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 233.68 63.5 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11ac6f45-7f3a-4b6b-9117-528f43f2ffe3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.68 56.6443 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4937,6 +4979,72 @@
 			(project "weather-final-V2"
 				(path "/eba07791-23f4-411a-9621-29ccfead6e0d"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dd53c70-4d3b-4300-8150-cae23620859e")
+		(property "Reference" "#PWR014"
+			(at 231.14 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bf2a2e4-4454-4287-84fd-8b863115ec9b")
+		)
+		(instances
+			(project "weather-final-V2"
+				(path "/eba07791-23f4-411a-9621-29ccfead6e0d"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6451,6 +6559,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 233.68 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78b86321-f153-460b-bc60-3002e35726b5")
+		(property "Reference" "C7"
+			(at 237.49 65.1509 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100μF"
+			(at 237.49 67.6909 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 234.6452 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 233.68 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba2df345-560a-4eeb-8fac-8d0ee7cfba38")
+		)
+		(pin "2"
+			(uuid "6f9175ec-35da-4434-b4b9-8da224820327")
+		)
+		(instances
+			(project "weather-final-V2"
+				(path "/eba07791-23f4-411a-9621-29ccfead6e0d"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 125.73 168.91 0)
 		(unit 1)
@@ -7496,10 +7674,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b859adab-91a6-4b25-b908-c7d1fda0a205")
 		(property "Reference" "D2"
-			(at 142.24 46.9899 90)
+			(at 135.382 49.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7508,7 +7685,7 @@
 			)
 		)
 		(property "Value" "US1A"
-			(at 142.24 49.5299 90)
+			(at 131.572 52.324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
